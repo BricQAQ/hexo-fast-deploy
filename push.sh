@@ -51,6 +51,7 @@ if [[ $? -ne 0 ]]; then
 fi
 
 # hexo工作流
+npm install hexo-deployer-git --save
 clear
 echo "开始清理缓存"
 hexo cl
